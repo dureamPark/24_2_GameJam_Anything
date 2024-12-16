@@ -48,6 +48,7 @@
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\InputCore\UnrealEditor-InputCore.lib"
 "C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealEditor\Development\AdvancedSessions\UnrealEditor-AdvancedSessions.lib"
+"..\Plugins\Runtime\Steam\SteamShared\Intermediate\Build\Win64\x64\UnrealEditor\Development\SteamShared\UnrealEditor-SteamShared.lib"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
