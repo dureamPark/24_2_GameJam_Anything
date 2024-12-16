@@ -54,5 +54,17 @@
     <ClInclude Include="..\..\Source\JamGame_Anything\JamGame_AnythingGameMode.h">
       <Filter>Source\JamGame_Anything</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\JamGame_Anything\PlayerCharacter.cpp">
+      <Filter>Source\JamGame_Anything</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\JamGame_Anything\PlayerCharacter.h">
+      <Filter>Source\JamGame_Anything</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\JamGame_Anything\PullBackBus.cpp">
+      <Filter>Source\JamGame_Anything</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\JamGame_Anything\PullBackBus.h">
+      <Filter>Source\JamGame_Anything</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

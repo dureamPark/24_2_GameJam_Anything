@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\top\\documents\\github\\24_2_gamejam_anything\\jamgame_anything\\source\\jamgame_anything\\bullbackbus.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\top\\documents\\github\\24_2_gamejam_anything\\jamgame_anything\\intermediate\\build\\win64\\x64\\jamgame_anythingeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\top\\documents\\github\\24_2_gamejam_anything\\jamgame_anything\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\jamgame_anything\\definitions.jamgame_anything.h",
+            "c:\\users\\top\\documents\\github\\24_2_gamejam_anything\\jamgame_anything\\source\\jamgame_anything\\bullbackbus.h",
+            "c:\\users\\top\\documents\\github\\24_2_gamejam_anything\\jamgame_anything\\intermediate\\build\\win64\\unrealeditor\\inc\\jamgame_anything\\uht\\bullbackbus.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
