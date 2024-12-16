@@ -78,8 +78,8 @@ void AJamGame_AnythingCharacter::SetupPlayerInputComponent(UInputComponent* Play
 	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent)) {
 		
 		// Jumping
-		//EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Started, this, &ACharacter::Jump);
-		//EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Completed, this, &ACharacter::StopJumping);
+		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Started, this, &ACharacter::Jump);
+		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Completed, this, &ACharacter::StopJumping);
 
 		// Moving
 		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AJamGame_AnythingCharacter::Move);
@@ -125,6 +125,6 @@ void AJamGame_AnythingCharacter::Look(const FInputActionValue& Value)
 	{
 		// add yaw and pitch input to controller
 		AddControllerYawInput(LookAxisVector.X);
-		//AddControllerPitchInput(LookAxisVector.Y);
+		AddControllerPitchInput(LookAxisVector.Y);
 	}
 }
