@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\develop\\unreal_project\\24_2_gamejam_anything\\jamgame_anything\\source\\jamgame_anything\\jamgame_anything.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\develop\\unreal_project\\24_2_gamejam_anything\\jamgame_anything\\intermediate\\build\\win64\\x64\\jamgame_anythingeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\develop\\unreal_project\\24_2_gamejam_anything\\jamgame_anything\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\jamgame_anything\\definitions.jamgame_anything.h",
+            "c:\\users\\develop\\unreal_project\\24_2_gamejam_anything\\jamgame_anything\\source\\jamgame_anything\\jamgame_anything.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

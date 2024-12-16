@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "JamGame_Anything",
+			"Path": "..\\Source\\JamGame_Anything.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "JamGame_AnythingEditor",
+			"Path": "..\\Source\\JamGame_AnythingEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

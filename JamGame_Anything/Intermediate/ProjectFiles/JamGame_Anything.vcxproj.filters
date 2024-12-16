@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\JamGame_Anything.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\JamGame_Anything.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\JamGame_AnythingEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\JamGame_Anything">
+      <UniqueIdentifier>{1E4EAEFF-4E4E-3608-8D81-950152DD03E8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\JamGame_Anything\JamGame_Anything.Build.cs">
+      <Filter>Source\JamGame_Anything</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\JamGame_Anything\JamGame_Anything.cpp">
+      <Filter>Source\JamGame_Anything</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\JamGame_Anything\JamGame_Anything.h">
+      <Filter>Source\JamGame_Anything</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\JamGame_Anything\JamGame_AnythingCharacter.cpp">
+      <Filter>Source\JamGame_Anything</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\JamGame_Anything\JamGame_AnythingCharacter.h">
+      <Filter>Source\JamGame_Anything</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\JamGame_Anything\JamGame_AnythingGameMode.cpp">
+      <Filter>Source\JamGame_Anything</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\JamGame_Anything\JamGame_AnythingGameMode.h">
+      <Filter>Source\JamGame_Anything</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
