@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JamGame_AnythingModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1dcbc05092987208e5f447be1a94664c9f084238")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b58d79b07fb23b862f2afc536248ac5f81025bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("JamGame_AnythingModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JamGame_AnythingModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

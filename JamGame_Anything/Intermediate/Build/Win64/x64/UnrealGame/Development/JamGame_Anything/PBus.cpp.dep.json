@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\develop\\unreal_project\\24_2_gamejam_anything\\jamgame_anything\\source\\jamgame_anything\\pbus.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\develop\\unreal_project\\24_2_gamejam_anything\\jamgame_anything\\intermediate\\build\\win64\\x64\\jamgame_anything\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\develop\\unreal_project\\24_2_gamejam_anything\\jamgame_anything\\intermediate\\build\\win64\\x64\\unrealgame\\development\\jamgame_anything\\definitions.jamgame_anything.h",
+            "c:\\users\\develop\\unreal_project\\24_2_gamejam_anything\\jamgame_anything\\source\\jamgame_anything\\pbus.h",
+            "c:\\users\\develop\\unreal_project\\24_2_gamejam_anything\\jamgame_anything\\intermediate\\build\\win64\\unrealgame\\inc\\jamgame_anything\\uht\\pbus.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

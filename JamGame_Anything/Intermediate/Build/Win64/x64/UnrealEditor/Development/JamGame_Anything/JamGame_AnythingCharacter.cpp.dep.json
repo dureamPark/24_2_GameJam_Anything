@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\user\\documents\\github\\24_2_gamejam_anything\\jamgame_anything\\source\\jamgame_anything\\jamgame_anythingcharacter.cpp",
+        "Source": "c:\\users\\develop\\unreal_project\\24_2_gamejam_anything\\jamgame_anything\\source\\jamgame_anything\\jamgame_anythingcharacter.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\user\\documents\\github\\24_2_gamejam_anything\\jamgame_anything\\intermediate\\build\\win64\\x64\\jamgame_anythingeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "PCH": "c:\\users\\develop\\unreal_project\\24_2_gamejam_anything\\jamgame_anything\\intermediate\\build\\win64\\x64\\jamgame_anythingeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
         "Includes": [
-            "c:\\users\\user\\documents\\github\\24_2_gamejam_anything\\jamgame_anything\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\jamgame_anything\\definitions.jamgame_anything.h",
-            "c:\\users\\user\\documents\\github\\24_2_gamejam_anything\\jamgame_anything\\source\\jamgame_anything\\jamgame_anythingcharacter.h",
+            "c:\\users\\develop\\unreal_project\\24_2_gamejam_anything\\jamgame_anything\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\jamgame_anything\\definitions.jamgame_anything.h",
+            "c:\\users\\develop\\unreal_project\\24_2_gamejam_anything\\jamgame_anything\\source\\jamgame_anything\\jamgame_anythingcharacter.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
@@ -15,7 +15,7 @@
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
-            "c:\\users\\user\\documents\\github\\24_2_gamejam_anything\\jamgame_anything\\intermediate\\build\\win64\\unrealeditor\\inc\\jamgame_anything\\uht\\jamgame_anythingcharacter.generated.h",
+            "c:\\users\\develop\\unreal_project\\24_2_gamejam_anything\\jamgame_anything\\intermediate\\build\\win64\\unrealeditor\\inc\\jamgame_anything\\uht\\jamgame_anythingcharacter.generated.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\cameracomponent.generated.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\capsulecomponent.h",
