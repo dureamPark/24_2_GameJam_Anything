@@ -12,4 +12,5 @@ AJamGame_AnythingGameMode::AJamGame_AnythingGameMode()
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
+	isMainUI = false;
 }

@@ -13,6 +13,9 @@ class AJamGame_AnythingGameMode : public AGameModeBase
 
 public:
 	AJamGame_AnythingGameMode();
+
+	UPROPERTY(BlueprintReadWrite)
+	bool isMainUI;
 };
 
 
