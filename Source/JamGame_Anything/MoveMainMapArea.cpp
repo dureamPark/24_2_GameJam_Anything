@@ -2,6 +2,7 @@
 
 
 #include "MoveMainMapArea.h"
+#include "BusPlayerController.h"
 
 // Sets default values
 AMoveMainMapArea::AMoveMainMapArea()
@@ -29,11 +30,17 @@ void AMoveMainMapArea::Tick(float DeltaTime)
 void AMoveMainMapArea::IncreasePlayerCount()
 {
 	playerCount++;
+	
 	if (playerCount == 2 && HasAuthority()) {
+		for (FConstPlayerControllerIterator It = GetWorld()->GetPlayerControllerIterator(); It; ++It)
+		{
+			ABusPlayerController* PC = Cast<ABusPlayerController>(*It);
+			if (PC)
+			{
+				PC->ClientShowLoadingScreen();
+			}
+		}
 		GetWorld()->ServerTravel(TEXT("/Game/MainContents/Maps/JamMap?listen"));
-		//GetWorld()->ServerTravel(TEXT("/Game/MainContents/Maps/JamMap"));
-		//server travel
-		//first open widget that ask for start?
 	}
 	else {
 		//nothing
