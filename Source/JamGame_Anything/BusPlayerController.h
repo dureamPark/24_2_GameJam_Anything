@@ -19,7 +19,7 @@ public:
 
     virtual void BeginPlay() override;
 	
-    UFUNCTION(Client, Reliable)
+    UFUNCTION(BlueprintCallable, Client, Reliable)
     void ClientShowLoadingScreen();
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "UI")
