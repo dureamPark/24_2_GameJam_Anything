@@ -64,10 +64,16 @@ protected:
 	// To add mapping context
 	virtual void BeginPlay();
 
+	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
+
 public:
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
+
+
+	UPROPERTY(Replicated, BlueprintReadWrite)
+	bool IsControl = true;
 };
 

@@ -9,6 +9,7 @@
 #include "GameFramework/Controller.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
+#include "Net/UnrealNetwork.h"
 #include "InputActionValue.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
@@ -69,6 +70,13 @@ void AJamGame_AnythingCharacter::BeginPlay()
 	}
 }
 
+void AJamGame_AnythingCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+	DOREPLIFETIME(AJamGame_AnythingCharacter, IsControl);
+}
+
 //////////////////////////////////////////////////////////////////////////
 // Input
 
@@ -98,6 +106,11 @@ void AJamGame_AnythingCharacter::Move(const FInputActionValue& Value)
 	// input is a Vector2D
 	FVector2D MovementVector = Value.Get<FVector2D>();
 
+	if (!IsControl)
+	{
+		return;
+	}
+
 	if (Controller != nullptr)
 	{
 		// find out which way is forward
@@ -120,6 +133,11 @@ void AJamGame_AnythingCharacter::Look(const FInputActionValue& Value)
 {
 	// input is a Vector2D
 	FVector2D LookAxisVector = Value.Get<FVector2D>();
+
+	if (!IsControl)
+	{
+		return;
+	}
 
 	if (Controller != nullptr)
 	{
